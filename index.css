@@ -1,0 +1,87 @@
+
+*{
+    margin: 0;
+}
+.wrapper{
+    min-height: 100vh;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+}
+figure.vidContainer{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+div.vid{
+    height: 180px;
+    width: 320px;
+    background-color: white;
+    border-radius: 20px;
+    box-shadow: 1px 1px 7px 1px rgb(216, 216, 216);
+    animation-name: load;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+}
+figcaption.caption{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 10px;
+}
+
+div.profPic{
+    height: 50px;
+    width: 50px;
+    background-color: lightblue;
+    border-radius: 50px;
+    box-shadow: 0 0  3px 1px rgb(216, 216, 216);
+    animation-name: load;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+}
+.cont{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    gap: 10px;
+}
+.title{
+    height: 30px;
+    width: 200px;
+    border-radius: 20px;
+    box-shadow: 0 0  3px 1px rgb(216, 216, 216);
+    animation-name: load;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+}
+.desc{
+    height: 30px;
+    width: 200px;
+    border-radius: 20px;
+    box-shadow: 0 0  3px 1px rgb(216, 216, 216);
+    animation-name: load;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes load {
+    from{
+        background-image: linear-gradient(95deg,lightgrey,rgb(245, 245, 245),rgb(245, 245, 245),rgb(245, 245, 245),rgb(245, 245, 245));
+    }
+    25%{
+        background-image: linear-gradient(95deg,rgb(245, 245, 245),lightgrey,rgb(245, 245, 245),rgb(245, 245, 245),rgb(245, 245, 245));
+    }
+    50%{
+        background-image: linear-gradient(95deg,rgb(245, 245, 245),rgb(245, 245, 245),lightgrey,rgb(245, 245, 245),rgb(245, 245, 245));
+
+    }
+    75%{
+        background-image: linear-gradient(95deg,rgb(245, 245, 245),rgb(245, 245, 245),rgb(245, 245, 245),lightgrey,rgb(245, 245, 245));
+    }
+    to{
+        background-image: linear-gradient(95deg,rgb(245, 245, 245),rgb(245, 245, 245),rgb(245, 245, 245),rgb(245, 245, 245),lightgrey);
+    }
+}
