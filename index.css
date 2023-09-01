@@ -51,7 +51,7 @@ div.profPic{
 .title{
     height: 30px;
     width: 200px;
-    border-radius: 20px;
+    border-radius: 10px;
     box-shadow: 0 0  3px 1px rgb(216, 216, 216);
     animation-name: load;
     animation-duration: 1s;
@@ -59,8 +59,8 @@ div.profPic{
 }
 .desc{
     height: 30px;
-    width: 200px;
-    border-radius: 20px;
+    width: 250px;
+    border-radius: 10px;
     box-shadow: 0 0  3px 1px rgb(216, 216, 216);
     animation-name: load;
     animation-duration: 1s;
