@@ -8,7 +8,9 @@
     flex-wrap: wrap;
     align-items: center;
     justify-content: center;
-    gap: 1rem;
+    gap: 2.5rem;
+    background-color: #4a4a4a;
+    padding: 5rem 1rem;
 }
 figure.vidContainer{
     display: flex;
